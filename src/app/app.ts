@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RootRefreshCountComponent } from '@gpeel/perftools';
+import { RootRefreshCount } from '@gpeel/perftools';
 import { ChildComponent } from './child';
 
 @Component({
@@ -10,7 +10,7 @@ import { ChildComponent } from './child';
     <div>App Component works!</div>
     <app-child></app-child>
   `,
-  imports: [RootRefreshCountComponent, ChildComponent],
+  imports: [RootRefreshCount, ChildComponent],
 })
 export class App {
   protected readonly title = signal('gpeel-perftools-ng22');

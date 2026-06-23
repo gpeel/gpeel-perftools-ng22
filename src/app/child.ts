@@ -1,9 +1,9 @@
 import { ChangeDetectorRef, Component, inject } from '@angular/core';
-import { RefreshCountComponent } from '@gpeel/perftools';
+import { RefreshCount } from '@gpeel/perftools';
 
 @Component({
   selector: 'app-child',
-  imports: [RefreshCountComponent],
+  imports: [RefreshCount],
   template: `
     <refresh-count name="CHILD"></refresh-count>
     <div>Child Component works!</div>

@@ -12,7 +12,7 @@ import { Plog } from '@gpeel/plog';
   template: `{{ onRefreshCounter() }}`,
   changeDetection: ChangeDetectionStrategy.Eager,
 })
-export class RefreshCountComponent {
+export class RefreshCount {
   /**
    * the name of the refresh counter
    */

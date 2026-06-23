@@ -13,12 +13,12 @@ import { Plog } from '@gpeel/plog';
   template: `{{ onRefreshDomCounter() }}`,
   changeDetection: ChangeDetectionStrategy.Eager,
 })
-export class RootRefreshCountComponent implements DoCheck {
+export class RootRefreshCount implements DoCheck {
   counter = 1;
   counterDom = 1;
 
   constructor() {
-    Plog.createComponent('RootRefreshCountComponent');
+    Plog.createComponent('RootRefreshCount');
   }
 
   ngDoCheck(): void {
