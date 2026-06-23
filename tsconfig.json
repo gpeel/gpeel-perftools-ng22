@@ -4,7 +4,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@gpeel/perftools": ["./dist/gpeel/perftools"]
+      "@gpeel/perftools": ["./projects/gpeel/perftools/src/public-api.ts"]
     },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
